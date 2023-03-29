@@ -8,6 +8,7 @@ namespace ConsoleProject01
         {
             string username = "admin";
             string password = "123";
+            bool test = true;
 
             if(username == "admin" && password == "123")
             {
