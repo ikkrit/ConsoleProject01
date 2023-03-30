@@ -6,17 +6,9 @@ namespace ConsoleProject01
     {
         static void Main(string[] args)
         {
-            string username = "admin";
-            string password = "123";
-            bool test = true;
+            int nb = Console.ReadLine();
+            int resultat;
 
-            if(username == "admin" && password == "123")
-            {
-                Console.WriteLine("Welcome admin");
-            } else
-            {
-                Console.WriteLine("Acces denied");
-            }
             Console.Read();
         }
     }
